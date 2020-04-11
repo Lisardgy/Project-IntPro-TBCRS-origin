@@ -1,9 +1,5 @@
-
-
-
 <!doctype html>
 <html lang="en">
-
 <head>
     <title>TBCRS</title>
     <!-- Required meta tags -->

@@ -1,6 +1,6 @@
 <?php
 $connect = mysqli_connect("localhost","root","","kan"); 
-$sql ='UPDATE `room` SET `Status` = "notfree" WHERE `RoomName`="'.$_POST['room'].'" and `Date`="'.$_POST['day'].'" AND `Time`="'.$_POST['time'].'"';
+$sql ='UPDATE `room` SET `Status` = "Active" WHERE `RoomName`="'.$_POST['room'].'" and `Date`="'.$_POST['day'].'" AND `Time`="'.$_POST['time'].'"';
 $result = mysqli_query($connect, $sql);
 mysqli_close($connect);
 echo '---- Completed ----';

@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
 
@@ -42,7 +40,7 @@
 				<p></p>
 			</div>
 				<div class="col">
-				<p class="font-weight-lighter"><em>Only in the blank "current user" field that is not in use</em></th>
+				<p class="font-weight-lighter"><em>Only in the blank of "Current user" field that is not in use</em></th>
 				</div>
 			<div class="row">
 				<div class="col-lg-1"></div>
