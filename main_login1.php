@@ -25,10 +25,19 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
+			
+                    <form method="post" action="main_login1.php">
+						<?php
+                        echo '<input type="hidden" name="ID" value="'.$_POST['ID'].'">';
+						echo '<input type="hidden" name="PW" value='.$_POST['PW'].'>';
+						?>
+                        <input type="submit" value="Home">
+                    </form>
+
+				</li>
+				
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="about.php">About</a>
                 </li>
             </ul>
 

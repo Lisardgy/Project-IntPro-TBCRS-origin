@@ -29,7 +29,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
                 </li>
-            </ul>
+			</ul>
+			<form class="form-inline my-2 my-lg-0"  method="post" action="index1.php">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" value="Logout">Logout</button>
+			</form>
         </div>
     </nav>
 	<br>
